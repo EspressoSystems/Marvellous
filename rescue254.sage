@@ -1,9 +1,9 @@
 load("instance_generator.sage")
 
 ##########################################################
-## rescue381 parameters
+## rescue254 parameters
 ##########################################################
-## use rescue381 to check the correctness of key_injection function
+## use rescue254 to check the correctness of key_injection function
 
 q254 = 21888242871839275222246405745257275088548364400416034343698204186575808495617
 rescue254 = Rescue(128, q254, 4, 5)
